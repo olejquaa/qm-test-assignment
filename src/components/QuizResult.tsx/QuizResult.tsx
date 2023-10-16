@@ -1,5 +1,5 @@
 import axios from "axios";
-import { CardList, Title } from "components";
+import { CardList } from "components";
 import React, { memo, useEffect, useState } from "react";
 import { ProductsResponse } from "types";
 
@@ -34,10 +34,3 @@ export const QuizResult = memo(() => {
     />
   );
 });
-
-{
-  /* <Title
-  title={"Результат"}
-  subtitle={"Мы подобрали для вас наиболее подходящие средства"}
-/>; */
-}

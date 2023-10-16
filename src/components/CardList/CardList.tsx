@@ -1,5 +1,4 @@
 import { Card } from "components/Card/Card";
-import { wrap } from "module";
 import React, { memo } from "react";
 import { Product } from "types";
 import { StyledCardList } from "./styles";
