@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.js": "/qm-test-assignment/static/js/main.6c3f8430.chunk.js",
-    "main.js.map": "/qm-test-assignment/static/js/main.6c3f8430.chunk.js.map",
-    "runtime~main.js": "/qm-test-assignment/static/js/runtime~main.8d4eac27.js",
-    "runtime~main.js.map": "/qm-test-assignment/static/js/runtime~main.8d4eac27.js.map",
-    "static/js/2.a4c843b5.chunk.js": "/qm-test-assignment/static/js/2.a4c843b5.chunk.js",
-    "static/js/2.a4c843b5.chunk.js.map": "/qm-test-assignment/static/js/2.a4c843b5.chunk.js.map",
+    "main.js": "/qm-test-assignment/static/js/main.f3fe3454.js",
     "index.html": "/qm-test-assignment/index.html",
-    "precache-manifest.4711cc34c28c1e4b1e41a0ab6178032f.js": "/qm-test-assignment/precache-manifest.4711cc34c28c1e4b1e41a0ab6178032f.js",
-    "service-worker.js": "/qm-test-assignment/service-worker.js"
-  }
+    "main.f3fe3454.js.map": "/qm-test-assignment/static/js/main.f3fe3454.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f3fe3454.js"
+  ]
 }
