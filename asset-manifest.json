@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/qm-test-assignment/static/js/main.f3fe3454.js",
+    "main.js": "/qm-test-assignment/static/js/main.899eec5b.js",
     "index.html": "/qm-test-assignment/index.html",
-    "main.f3fe3454.js.map": "/qm-test-assignment/static/js/main.f3fe3454.js.map"
+    "main.899eec5b.js.map": "/qm-test-assignment/static/js/main.899eec5b.js.map"
   },
   "entrypoints": [
-    "static/js/main.f3fe3454.js"
+    "static/js/main.899eec5b.js"
   ]
 }
