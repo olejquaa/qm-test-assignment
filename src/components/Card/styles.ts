@@ -23,10 +23,16 @@ export const CardTitle = styled.p`
   line-height: 130%; /* 23.4px */
   text-align: left;
 
-  margin-top: 22;
+  margin-top: 22px;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+
+  @media (max-width: 549px) {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
 `;
 
 export const CardPrice = styled.p<{ $oldPrice?: string }>`
@@ -37,6 +43,11 @@ export const CardPrice = styled.p<{ $oldPrice?: string }>`
   font-weight: 600;
   line-height: 36.963px;
 
+  @media (max-width: 549px) {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
   &:after {
     content: "руб.";
 
@@ -46,6 +57,10 @@ export const CardPrice = styled.p<{ $oldPrice?: string }>`
     font-style: normal;
     font-weight: 600;
     line-height: 136.9%;
+
+    @media (max-width: 549px) {
+      font-size: 16px;
+    }
   }
 
   &::before {
@@ -60,6 +75,10 @@ export const CardPrice = styled.p<{ $oldPrice?: string }>`
     font-weight: 600;
     line-height: 136.9%;
     text-decoration: line-through;
+
+    @media (max-width: 549px) {
+      font-size: 16px;
+    }
   }
 `;
 
