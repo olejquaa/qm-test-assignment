@@ -1,7 +1,7 @@
-import { Quiz } from "components";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { QuestionsResponse } from "types";
+import { Quiz } from "components";
 
 const URL = "questions.json";
 

@@ -2,7 +2,6 @@ import { createGlobalStyle } from "styled-components";
 import { Color } from "./colors";
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
