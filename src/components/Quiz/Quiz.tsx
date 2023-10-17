@@ -16,23 +16,22 @@ interface Props {
 export const Quiz = memo(({ questions }: Props) => {
   const [currentQuestionNumber, setCurrentQuestionNumber] = useState(1);
   const [isFinished, setFinished] = useState(false);
-
-  console.log(currentQuestionNumber);
-  console.log(questions);
+  const [answer, setAnswer] = useState(false);
 
   const handleNext = () => {
-    console.log("clicked next");
-    setCurrentQuestionNumber(currentQuestionNumber + 1);
+    answer === true
+      ? setCurrentQuestionNumber(currentQuestionNumber + 1)
+      : alert("Выберите вариант ответа");
+
+    setAnswer(false);
   };
 
   const handlePrev = () => {
-    console.log("clicked prev");
     setCurrentQuestionNumber(currentQuestionNumber - 1);
   };
 
   const handleResult = () => {
-    console.log("clicked result");
-    setFinished(true);
+    answer === true ? setFinished(true) : alert("Выберите вариант ответа");
   };
 
   let { id, title, options } = questions[currentQuestionNumber - 1];
@@ -56,7 +55,12 @@ export const Quiz = memo(({ questions }: Props) => {
           Вопрос {id} из {questions.length}
         </CirclesSubtitle>
 
-        <QuizQuestion id={id} title={title} options={options} />
+        <QuizQuestion
+          id={id}
+          title={title}
+          options={options}
+          answer={setAnswer}
+        />
 
         {currentQuestionNumber === 1 ? (
           <StyledBlueButton onClick={handleNext} id="next">

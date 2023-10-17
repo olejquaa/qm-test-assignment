@@ -9,6 +9,7 @@ export interface Question {
   id: string;
   title: string;
   options: string[];
+  answer: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 // Products

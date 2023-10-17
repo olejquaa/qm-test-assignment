@@ -11,6 +11,7 @@ import {
 export const Card = ({ id, title, image, price, oldPrice }: Product) => {
   let priceFixed = price?.toFixed(2);
   let oldPriceFixed = oldPrice?.toFixed(2);
+
   return (
     <>
       <StyledCard>

@@ -1,7 +1,6 @@
 import axios from "axios";
-import { CardList } from "components";
+import { CardList, CustomSpinner } from "components";
 import React, { memo, useEffect, useState } from "react";
-import { PaginationControl } from "react-bootstrap-pagination-control";
 import { ProductsResponse } from "types";
 
 export const QuizResult = memo(() => {
@@ -15,7 +14,6 @@ export const QuizResult = memo(() => {
   useEffect(() => {
     const fetchData = async () => {
       await axios.get(URL).then((response) => {
-        console.log("данные загружены");
         setResultState({
           isLoading: false,
           products: response.data,
@@ -23,11 +21,10 @@ export const QuizResult = memo(() => {
       });
     };
     fetchData();
-    console.log("загружает данные");
   }, [setResultState]);
 
   return resultState.isLoading ? (
-    <span>Загрузка</span>
+    <CustomSpinner />
   ) : (
     <CardList
       isLoading={resultState.isLoading}

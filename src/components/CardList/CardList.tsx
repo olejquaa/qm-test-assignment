@@ -18,27 +18,8 @@ export const CardList = memo(({ isLoading, products }: Props) => {
   const indexOfFirstCard = indexOfLastCard - cardsPerPage;
   const currentCards = currentProducts.slice(indexOfFirstCard, indexOfLastCard);
 
-  const previousPage = () => {
-    if (currentPage !== 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
-
-  const nextPage = () => {
-    if (currentPage !== Math.ceil(products.length / cardsPerPage)) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
-  const paginate = (pageNumber: number) => {
-    setCurrentPage(pageNumber);
-  };
-
   useEffect(() => {
     setCurrentProducts(products);
-
-    console.log(`currentCards: ${currentCards}`);
-    console.log(`products; ${products}`);
   }, [setCurrentProducts]);
 
   return (

@@ -8,11 +8,12 @@ import {
   StyledQuizVariant,
 } from "./styles";
 
-export const QuizQuestion = memo(({ id, title, options }: Question) => {
+export const QuizQuestion = memo(({ id, title, options, answer }: Question) => {
   const [currentOptionValue, setOptionValue] = useState("");
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setOptionValue(e.target.value);
+    answer(true);
   };
 
   return (
@@ -27,6 +28,7 @@ export const QuizQuestion = memo(({ id, title, options }: Question) => {
               name={title}
               value={item}
               onChange={onChange}
+              id={item}
             />
             <StyledLabel htmlFor={item}>{item}</StyledLabel>
           </StyledQuizVariant>
