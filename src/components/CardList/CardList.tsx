@@ -1,15 +1,46 @@
 import { Card } from "components/Card/Card";
-import React, { memo } from "react";
+import React, { memo, useEffect, useState } from "react";
 import { Product } from "types";
-import { StyledCardList } from "./styles";
+import { StyledCardList, StyledPagination } from "./styles";
 import { Title } from "components/Title/Title";
+import { PaginationControl } from "react-bootstrap-pagination-control";
 
 interface Props {
   isLoading: boolean;
   products: Product[];
 }
 
-export const CardList = memo(({ products }: Props) => {
+export const CardList = memo(({ isLoading, products }: Props) => {
+  const [currentProducts, setCurrentProducts] = useState<Product[]>([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [cardsPerPage] = useState(10);
+  const indexOfLastCard = currentPage * cardsPerPage;
+  const indexOfFirstCard = indexOfLastCard - cardsPerPage;
+  const currentCards = currentProducts.slice(indexOfFirstCard, indexOfLastCard);
+
+  const previousPage = () => {
+    if (currentPage !== 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const nextPage = () => {
+    if (currentPage !== Math.ceil(products.length / cardsPerPage)) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const paginate = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+  };
+
+  useEffect(() => {
+    setCurrentProducts(products);
+
+    console.log(`currentCards: ${currentCards}`);
+    console.log(`products; ${products}`);
+  }, [setCurrentProducts]);
+
   return (
     <>
       <Title
@@ -17,7 +48,7 @@ export const CardList = memo(({ products }: Props) => {
         subtitle={"Мы подобрали для вас наиболее подходящие средства"}
       />
       <StyledCardList>
-        {products.map(({ id, title, image, price, oldPrice }) => (
+        {currentCards.map(({ id, title, image, price, oldPrice }) => (
           <Card
             id={id}
             title={title}
@@ -28,6 +59,18 @@ export const CardList = memo(({ products }: Props) => {
           />
         ))}
       </StyledCardList>
+      <StyledPagination style={{ display: "flex" }}>
+        <PaginationControl
+          page={currentPage}
+          between={3}
+          total={250}
+          limit={20}
+          changePage={(page) => {
+            setCurrentPage(page);
+          }}
+          ellipsis={2}
+        />
+      </StyledPagination>
     </>
   );
 });

@@ -1,6 +1,7 @@
 import axios from "axios";
 import { CardList } from "components";
 import React, { memo, useEffect, useState } from "react";
+import { PaginationControl } from "react-bootstrap-pagination-control";
 import { ProductsResponse } from "types";
 
 export const QuizResult = memo(() => {
