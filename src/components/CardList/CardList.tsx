@@ -63,12 +63,12 @@ export const CardList = memo(({ isLoading, products }: Props) => {
         <PaginationControl
           page={currentPage}
           between={3}
-          total={250}
-          limit={20}
+          total={products.length - 1}
+          limit={10}
           changePage={(page) => {
             setCurrentPage(page);
           }}
-          ellipsis={2}
+          ellipsis={1}
         />
       </StyledPagination>
     </>
