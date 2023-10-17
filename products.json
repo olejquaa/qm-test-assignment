@@ -10,22 +10,19 @@
     "id": 2,
     "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
     "image": "./images/product-2.jpeg",
-    "price": 46.55,
-    "oldPrice": null
+    "price": 46.55
   },
   {
     "id": 3,
     "title": "Крем дневной д/лица Legere, 50мл",
     "image": "./images/product-3.jpeg",
-    "price": 55.75,
-    "oldPrice": null
+    "price": 55.75
   },
   {
     "id": 4,
     "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
     "image": "./images/product-4.jpeg",
-    "price": 44.55,
-    "oldPrice": null
+    "price": 44.55
   },
   {
     "id": 5,
@@ -38,15 +35,13 @@
     "id": 6,
     "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
     "image": "./images/product-6.jpeg",
-    "price": 63,
-    "oldPrice": null
+    "price": 63
   },
   {
     "id": 7,
     "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
     "image": "./images/product-7.jpeg",
-    "price": 43.25,
-    "oldPrice": null
+    "price": 43.25
   },
   {
     "id": 8,
@@ -59,8 +54,7 @@
     "id": 9,
     "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
     "image": "./images/product-9.jpeg",
-    "price": 242,
-    "oldPrice": null
+    "price": 242
   },
   {
     "id": 10,
@@ -68,5 +62,576 @@
     "image": "./images/product-10.jpeg",
     "price": 185,
     "oldPrice": 240
+  },
+  {
+    "id": 11,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-10.jpeg",
+    "price": 79.07418748053298,
+    "oldPrice": 197.6080991570821
+  },
+  {
+    "id": 12,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-8.jpeg",
+    "price": 149.58264723767184
+  },
+  {
+    "id": 13,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-5.jpeg",
+    "price": 57.73784990047639
+  },
+  {
+    "id": 14,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-4.jpeg",
+    "price": 152.36796538868182
+  },
+  {
+    "id": 15,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-1.jpeg",
+    "price": 78.33181349899137,
+    "oldPrice": 302.2884816198038
+  },
+  {
+    "id": 16,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-2.jpeg",
+    "price": 25.44327347040366
+  },
+  {
+    "id": 17,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 107.46971883485702
+  },
+  {
+    "id": 18,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-3.jpeg",
+    "price": 51.65858559858466
+  },
+  {
+    "id": 19,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-7.jpeg",
+    "price": 97.99387075963341
+  },
+  {
+    "id": 20,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-9.jpeg",
+    "price": 70.43145103852089,
+    "oldPrice": 69.61965104864112
+  },
+  {
+    "id": 21,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-1.jpeg",
+    "price": 157.87243747905117
+  },
+  {
+    "id": 22,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-2.jpeg",
+    "price": 139.39669271178477,
+    "oldPrice": 250.92528050321903
+  },
+  {
+    "id": 23,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-3.jpeg",
+    "price": 105.70798262526836,
+    "oldPrice": 228.43915295694524
+  },
+  {
+    "id": 24,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-4.jpeg",
+    "price": 106.87708684819935
+  },
+  {
+    "id": 25,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-5.jpeg",
+    "price": 125.97384988901604
+  },
+  {
+    "id": 26,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 110.34227524702627
+  },
+  {
+    "id": 27,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-7.jpeg",
+    "price": 149.00886452110774,
+    "oldPrice": 255.76454732398156
+  },
+  {
+    "id": 28,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-8.jpeg",
+    "price": 68.56213337983914
+  },
+  {
+    "id": 29,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-9.jpeg",
+    "price": 23.964956071585355
+  },
+  {
+    "id": 30,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-10.jpeg",
+    "price": 118.95003255125312
+  },
+  {
+    "id": 31,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-10.jpeg",
+    "price": 127.31635747973732
+  },
+  {
+    "id": 32,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-8.jpeg",
+    "price": 66.63035287740395,
+    "oldPrice": 263.48981637039697
+  },
+  {
+    "id": 33,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-5.jpeg",
+    "price": 155.20304772330113
+  },
+  {
+    "id": 34,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-4.jpeg",
+    "price": 58.05379517017621,
+    "oldPrice": 218.60571893753328
+  },
+  {
+    "id": 35,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-1.jpeg",
+    "price": 184.7952560041687,
+    "oldPrice": 281.8832579887427
+  },
+  {
+    "id": 36,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-2.jpeg",
+    "price": 169.52297195621304
+  },
+  {
+    "id": 37,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 58.02980557519082
+  },
+  {
+    "id": 38,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-3.jpeg",
+    "price": 109.77996427527103
+  },
+  {
+    "id": 39,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-7.jpeg",
+    "price": 40.48322477783145,
+    "oldPrice": 227.26347543037278
+  },
+  {
+    "id": 40,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-9.jpeg",
+    "price": 175.84644832862003
+  },
+  {
+    "id": 41,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-1.jpeg",
+    "price": 138.8105817193058
+  },
+  {
+    "id": 42,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-6.jpeg",
+    "price": 72.59618625870625
+  },
+  {
+    "id": 43,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-7.jpeg",
+    "price": 122.09301902915372
+  },
+  {
+    "id": 44,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-8.jpeg",
+    "price": 109.07862871648503,
+    "oldPrice": 120.41165437776498
+  },
+  {
+    "id": 45,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-9.jpeg",
+    "price": 85.60113127103014
+  },
+  {
+    "id": 46,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 118.40154044752148,
+    "oldPrice": 129.97539741523826
+  },
+  {
+    "id": 47,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-9.jpeg",
+    "price": 119.89526880692138,
+    "oldPrice": 176.08729440011786
+  },
+  {
+    "id": 48,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-10.jpeg",
+    "price": 113.01953157080419
+  },
+  {
+    "id": 49,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-2.jpeg",
+    "price": 103.84801674297627
+  },
+  {
+    "id": 50,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-8.jpeg",
+    "price": 183.56449181134133
+  },
+  {
+    "id": 51,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-5.jpeg",
+    "price": 127.0880881676634,
+    "oldPrice": 198.84653654454726
+  },
+  {
+    "id": 52,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-4.jpeg",
+    "price": 76.89300386508005
+  },
+  {
+    "id": 53,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-1.jpeg",
+    "price": 65.52897779668196
+  },
+  {
+    "id": 54,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-5.jpeg",
+    "price": 147.81481359925448
+  },
+  {
+    "id": 55,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-6.jpeg",
+    "price": 83.05975612020842
+  },
+  {
+    "id": 56,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-9.jpeg",
+    "price": 169.00552134558376,
+    "oldPrice": 228.7281346898649
+  },
+  {
+    "id": 57,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-10.jpeg",
+    "price": 13.139474846764198
+  },
+  {
+    "id": 58,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-2.jpeg",
+    "price": 104.89580330571805,
+    "oldPrice": 116.18102049300087
+  },
+  {
+    "id": 59,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-8.jpeg",
+    "price": 85.95069009552518,
+    "oldPrice": 65.41599545154145
+  },
+  {
+    "id": 60,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-5.jpeg",
+    "price": 107.86835170277048
+  },
+  {
+    "id": 61,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-4.jpeg",
+    "price": 109.93168130235154
+  },
+  {
+    "id": 62,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-1.jpeg",
+    "price": 178.88298796041988
+  },
+  {
+    "id": 63,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-5.jpeg",
+    "price": 90.92101690152006,
+    "oldPrice": 35.12895081983976
+  },
+  {
+    "id": 64,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-6.jpeg",
+    "price": 49.68934557665039
+  },
+  {
+    "id": 65,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-9.jpeg",
+    "price": 77.81216421288826
+  },
+  {
+    "id": 66,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-10.jpeg",
+    "price": 190.07556912626865
+  },
+  {
+    "id": 67,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-2.jpeg",
+    "price": 60.52992914835018
+  },
+  {
+    "id": 68,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-8.jpeg",
+    "price": 121.14063446502135,
+    "oldPrice": 215.48212566873244
+  },
+  {
+    "id": 69,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-5.jpeg",
+    "price": 114.3045146920872
+  },
+  {
+    "id": 70,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-4.jpeg",
+    "price": 24.36688257659918,
+    "oldPrice": 246.1548791984917
+  },
+  {
+    "id": 71,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-1.jpeg",
+    "price": 83.63313508415715,
+    "oldPrice": 266.00318529524446
+  },
+  {
+    "id": 72,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-5.jpeg",
+    "price": 76.30841402063096
+  },
+  {
+    "id": 73,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 129.9831410650344
+  },
+  {
+    "id": 74,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-4.jpeg",
+    "price": 110.00012601599488
+  },
+  {
+    "id": 75,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-1.jpeg",
+    "price": 29.204609198289756,
+    "oldPrice": 223.41239530205274
+  },
+  {
+    "id": 76,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-2.jpeg",
+    "price": 106.73114545035423
+  },
+  {
+    "id": 77,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 97.78456061802859
+  },
+  {
+    "id": 78,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-3.jpeg",
+    "price": 155.6155642507053
+  },
+  {
+    "id": 79,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-7.jpeg",
+    "price": 151.48890831855326
+  },
+  {
+    "id": 80,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-9.jpeg",
+    "price": 183.4323624431513,
+    "oldPrice": 251.61848913565768
+  },
+  {
+    "id": 81,
+    "title": "Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл",
+    "image": "./images/product-1.jpeg",
+    "price": 55.60231795953941
+  },
+  {
+    "id": 82,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-2.jpeg",
+    "price": 53.49551285677697,
+    "oldPrice": 130.18735728050214
+  },
+  {
+    "id": 83,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-3.jpeg",
+    "price": 112.8903156938496,
+    "oldPrice": 98.80787863845063
+  },
+  {
+    "id": 84,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-4.jpeg",
+    "price": 159.85435971547884
+  },
+  {
+    "id": 85,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-5.jpeg",
+    "price": 153.57188673349333
+  },
+  {
+    "id": 86,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 101.91330230129435
+  },
+  {
+    "id": 87,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-7.jpeg",
+    "price": 41.00504351607592,
+    "oldPrice": 230.15054989924795
+  },
+  {
+    "id": 88,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-8.jpeg",
+    "price": 114.59902957707408
+  },
+  {
+    "id": 89,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-9.jpeg",
+    "price": 87.45174676826446
+  },
+  {
+    "id": 90,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-10.jpeg",
+    "price": 50.49251611426916
+  },
+  {
+    "id": 91,
+    "title": "Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл",
+    "image": "./images/product-2.jpeg",
+    "price": 86.20275190229702
+  },
+  {
+    "id": 92,
+    "title": "Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл",
+    "image": "./images/product-8.jpeg",
+    "price": 162.8820510802111,
+    "oldPrice": 253.59732274625156
+  },
+  {
+    "id": 93,
+    "title": "Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл",
+    "image": "./images/product-5.jpeg",
+    "price": 109.50691144619225
+  },
+  {
+    "id": 94,
+    "title": "Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г",
+    "image": "./images/product-4.jpeg",
+    "price": 122.48272145785145,
+    "oldPrice": 281.2386100529993
+  },
+  {
+    "id": 95,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-1.jpeg",
+    "price": 96.16362820210443,
+    "oldPrice": 232.9877814297389
+  },
+  {
+    "id": 96,
+    "title": "Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл",
+    "image": "./images/product-2.jpeg",
+    "price": 115.6067160367422
+  },
+  {
+    "id": 97,
+    "title": "Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл",
+    "image": "./images/product-6.jpeg",
+    "price": 58.30112866944228
+  },
+  {
+    "id": 98,
+    "title": "Крем дневной д/лица Legere, 50мл",
+    "image": "./images/product-10.jpeg",
+    "price": 17.857961848543436
+  },
+  {
+    "id": 99,
+    "title": "Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл",
+    "image": "./images/product-7.jpeg",
+    "price": 73.77730849303555,
+    "oldPrice": 81.56012314032373
+  },
+  {
+    "id": 100,
+    "title": "Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г",
+    "image": "./images/product-9.jpeg",
+    "price": 114.96364862008755,
+    "oldPrice": 314.2308154023227
   }
 ]
