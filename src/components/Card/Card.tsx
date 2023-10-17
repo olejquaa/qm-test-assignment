@@ -9,6 +9,8 @@ import {
 } from "./styles";
 
 export const Card = ({ id, title, image, price, oldPrice }: Product) => {
+  let priceFixed = price?.toFixed(2);
+  let oldPriceFixed = oldPrice?.toFixed(2);
   return (
     <>
       <StyledCard>
@@ -19,7 +21,7 @@ export const Card = ({ id, title, image, price, oldPrice }: Product) => {
           ></FavoritesImage>
         </CardImage>
         <CardTitle>{title}</CardTitle>
-        <CardPrice $oldPrice={oldPrice}>{price}</CardPrice>
+        <CardPrice $oldPrice={oldPriceFixed}>{priceFixed}</CardPrice>
       </StyledCard>
     </>
   );

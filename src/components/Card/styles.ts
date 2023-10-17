@@ -29,7 +29,7 @@ export const CardTitle = styled.p`
   overflow: hidden;
 `;
 
-export const CardPrice = styled.p<{ $oldPrice?: number }>`
+export const CardPrice = styled.p<{ $oldPrice?: string }>`
   margin-top: 15px;
   margin-bottom: 0px;
   font-size: 27px;
