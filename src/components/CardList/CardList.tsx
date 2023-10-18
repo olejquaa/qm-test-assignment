@@ -4,6 +4,7 @@ import { Product } from "types";
 import { StyledCardList, StyledPagination } from "./styles";
 import { Title } from "components/Title/Title";
 import { PaginationControl } from "react-bootstrap-pagination-control";
+import { useScroll } from "hooks";
 
 interface Props {
   isLoading: boolean;
@@ -21,6 +22,8 @@ export const CardList = memo(({ isLoading, products }: Props) => {
   useEffect(() => {
     setCurrentProducts(products);
   }, [setCurrentProducts]);
+
+  useScroll();
 
   return (
     <>
